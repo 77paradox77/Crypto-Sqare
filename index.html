@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Cryptosquare</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Encrypts your phrase.</h1>
+
+      <form id="cryptosquare">
+        <div class="form-group">
+          <label for="initialPhrase">Enter your message:</label>
+          <input id="initialPhrase" type="text" class="form-control" placeholder="Enter a Phrase for me to translate!">
+        </div>
+
+        <button type="submit" class="btn">Encrypt me!</button>
+      </form>
+
+      <hr>
+
+      <div id="result">
+
+        <h3>Original phrase:</h3>
+        <div class="well">
+          <span class="initialPhrase"></span>
+          <br/>
+        </div>
+
+        <h3>Becomes:</h3>
+        <div class="well">
+          <span class="encryptedPhrase"></span>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
